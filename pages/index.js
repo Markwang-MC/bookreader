@@ -1,4 +1,3 @@
-
 import {useState,useEffect} from "react"
 import openDB from "../lib/indexdb"
 import query from '../components/query.js';
@@ -6,6 +5,7 @@ import Addbook from '../components/addBook';
 import Page from '../components/page';
 import Input from '../components/input';
 import IndexContent from '../components/indexContent';
+// this is my function
 export default function Index() {
   const [search,setSearch] = useState(false)
   const [data,setData] = useState(null)
